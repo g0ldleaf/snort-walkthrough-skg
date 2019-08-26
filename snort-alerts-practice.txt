@@ -1,0 +1,48 @@
+apt install snort
+# configure with default settings
+
+# Open both your Kali and Metasploitable VMs
+# Set up both machines on a host-only network
+# Confirm that the hosts can ping each other and note both IP addresses
+# Check firewall status on Kali
+
+
+ping 192.168.56.107
+
+ufw disable
+#Firewall stopped and disabled on system startup
+
+#run Wireshark
+#capture packets on Eth0 host-only interface ONLY
+
+telnet 192.168.56.107
+curl -i 192.168.56.107
+nmap -n -sn 192.168.56.107
+#save file as .pcap Wireshark/tcpdump in git repo
+
+touch fullstack.rules
+mkdir logs
+#make blank file and empty directory
+snort -l ./logs -c fullstack.rules -r wireshark-snort-setup.pcap 
+
+#Use wireshark to identify what types of behavior are happening in each of the following pcap samples. See jpgs for wireshark pre-work
+
+# Make a rule to scan for ping
+ 
+vim /etc/snort/snort.conf
+ipvar HOME_NET 192.168.56.0/24  #change to IP subnet, editing file
+ 
+vim fullstack.rules
+alert icmp any any -> any any (msg:”alert - possible ping - ICMP test”; sid:1000001; rev:1;)
+#add an alert to rules
+ 
+snort -l logs/ -c fullstack.rules -r wireshark-snort-setup.pcap
+#snort through logs, using fullstack.rules, and reading the specified pcap file (made in wireshark earlier)
+#go to logs directory and look for alerts
+#look for sid 1000001 (as noted in rule) to confirm that you got a ping alert
+
+***
+
+
+
+

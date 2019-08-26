@@ -1,0 +1,10 @@
+alert icmp any any -> any any (msg:”alert - possible ping - ICMP test”; sid:1000001; rev:1;)
+# alert for ping aka ICMP request categorized as all numbers, 1 revision, icmp-event classtype
+
+# include /etc/snort/rules/local.rules
+# copy all the rules from local.rules
+
+alert icmp any any -> any any (msg: "NMAP ping sweep Scan"; dsize:0;sid:10000004; rev: 1;)
+#alert for an nmap ping scan as sid 10000004
+
+

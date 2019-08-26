@@ -1,0 +1,84 @@
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-11:17:43.043743 192.168.56.107 -> 192.168.56.105
+ICMP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:16658   Seq:1  ECHO
+
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-11:17:43.043776 192.168.56.105 -> 192.168.56.107
+ICMP TTL:64 TOS:0x0 ID:48762 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:16658  Seq:1  ECHO REPLY
+
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-11:17:44.051183 192.168.56.107 -> 192.168.56.105
+ICMP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:16658   Seq:2  ECHO
+
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-11:17:44.051233 192.168.56.105 -> 192.168.56.107
+ICMP TTL:64 TOS:0x0 ID:48996 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:16658  Seq:2  ECHO REPLY
+
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-07:42:36.114679 192.168.56.104 -> 192.168.56.106
+ICMP TTL:64 TOS:0x0 ID:35543 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:6132   Seq:1  ECHO
+
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-07:42:36.115010 192.168.56.106 -> 192.168.56.104
+ICMP TTL:64 TOS:0x0 ID:9731 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:6132  Seq:1  ECHO REPLY
+
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-07:42:37.143399 192.168.56.104 -> 192.168.56.106
+ICMP TTL:64 TOS:0x0 ID:35785 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:6132   Seq:2  ECHO
+
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-07:42:37.143896 192.168.56.106 -> 192.168.56.104
+ICMP TTL:64 TOS:0x0 ID:9732 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:6132  Seq:2  ECHO REPLY
+
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-07:42:38.213095 192.168.56.104 -> 192.168.56.106
+ICMP TTL:64 TOS:0x0 ID:35990 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:6132   Seq:3  ECHO
+
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-07:42:38.213447 192.168.56.106 -> 192.168.56.104
+ICMP TTL:64 TOS:0x0 ID:9733 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:6132  Seq:3  ECHO REPLY
+
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-07:42:39.221554 192.168.56.104 -> 192.168.56.106
+ICMP TTL:64 TOS:0x0 ID:36124 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:6132   Seq:4  ECHO
+
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-07:42:39.221874 192.168.56.106 -> 192.168.56.104
+ICMP TTL:64 TOS:0x0 ID:9734 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:6132  Seq:4  ECHO REPLY
+
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-07:42:40.245490 192.168.56.104 -> 192.168.56.106
+ICMP TTL:64 TOS:0x0 ID:36300 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:6132   Seq:5  ECHO
+
+[**] [1:1000001:1] ”alert - possible ping - ICMP test” [**]
+[Priority: 0] 
+08/26-07:42:40.245782 192.168.56.106 -> 192.168.56.104
+ICMP TTL:64 TOS:0x0 ID:9735 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:6132  Seq:5  ECHO REPLY
+
